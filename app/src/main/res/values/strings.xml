@@ -1,11 +1,14 @@
 <resources>
     <string name="app_name">Physics Data Review</string>
+    <string name="formulas">Formulas</string>
+    <string name="explanation">Explanation</string>
 
     //topic 1
     <string name="e1.2">∆y = absolute uncertainty of y\n∆a = absolute uncertainty of a\n∆b = absolute uncertainty of b\n\nFormulas for uncertainty calculation.</string>
     <string name="e1.3">A = vector\nAH = horizontal component of vector\nAv = vertical component of vector\n\nBe aware of where the reference angle is and apply the suitable trigonometric identities.</string>
     //topic 2
     <string name="e2.1">v = final velocity\nu = initial velocity\na = acceleration\nt = time elapsed\ns = displacement\n\n“Suvat” equations for uniform motion. Acceleration must be constant.</string>
-    
+
+
 
 </resources>
