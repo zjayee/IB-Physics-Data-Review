@@ -2,6 +2,7 @@
     <string name="app_name">Physics Data Review</string>
     <string name="formulas">Formulas</string>
     <string name="explanation">Explanation</string>
+    <string name="all_formulas">All Formulas</string>
 
     //topic 1
     <string name="e1.2">∆y = absolute uncertainty of y\n∆a = absolute uncertainty of a\n∆b = absolute uncertainty of b\n\nFormulas for uncertainty calculation.</string>

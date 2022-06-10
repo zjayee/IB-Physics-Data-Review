@@ -1,0 +1,77 @@
+package com.example.physicsdatareview;
+
+import android.content.Context;
+import android.content.res.ColorStateList;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
+import androidx.core.widget.ImageViewCompat;
+import androidx.recyclerview.widget.RecyclerView;
+
+import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+
+public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
+
+   Context context;
+   ArrayList<String> topics;
+
+    //constructor
+    TopicAdapter(@NonNull Context context, @NonNull ArrayList<String> topics){
+        this.context = context;
+        this.topics = topics;
+    }
+
+    @NonNull
+    @NotNull
+    @Override
+    public TopicViewHolder onCreateViewHolder(@NonNull @NotNull ViewGroup parent, int viewType) {
+        //method called whenever I need to create a new viewholder
+        LayoutInflater inflater = LayoutInflater.from(context);
+        View itemView = inflater.inflate(R.layout.topic_item, parent, false);
+        TopicViewHolder viewHolder = new TopicViewHolder(itemView);
+        return viewHolder;
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull @NotNull TopicViewHolder holder, int position) {
+        //called whenever an existing ViewHolder needs to be re-used
+        //at this point we need to repopulate the viewholder
+        int topicNumber = position + 1;
+        String topicName = topics.get(position);
+
+        //set name and number
+        holder.topicNumberTextView.setText(topicNumber);
+        holder.topicNameTextView.setText(topicName);
+
+        //set top and bottom circle visibility
+        if (topicNumber==1){
+            holder.circleTopImageView.setVisibility(View.VISIBLE);
+        }else if(topicNumber == 12){
+            holder.circleBottomImageView.setVisibility(View.VISIBLE);
+        }
+
+        //set colour for HL topics
+        if (topicNumber>8){
+            ImageViewCompat.setImageTintList(holder.circleConnectorImageView, ColorStateList.valueOf(ContextCompat.getColor(context, R.color.orange)));
+        }
+
+        //TODO: setup on click listener
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //open list of formulas for topic
+            }
+        });
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return topics.size();
+    }
+}
