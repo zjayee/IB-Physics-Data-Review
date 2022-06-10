@@ -18,12 +18,13 @@ import java.util.ArrayList;
 public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
 
    Context context;
-   ArrayList<String> topics;
+   ArrayList<String> topicList;
 
     //constructor
-    TopicAdapter(@NonNull Context context, @NonNull ArrayList<String> topics){
+    TopicAdapter(@NonNull Context context){
         this.context = context;
-        this.topics = topics;
+        this.topicList = Topics.topicList;
+        topicList.add(0, "All Formulas");
     }
 
     @NonNull
@@ -41,11 +42,20 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
     public void onBindViewHolder(@NonNull @NotNull TopicViewHolder holder, int position) {
         //called whenever an existing ViewHolder needs to be re-used
         //at this point we need to repopulate the viewholder
-        int topicNumber = position + 1;
-        String topicName = topics.get(position);
+        int topicNumber = position;
+        String topicName = topicList.get(position);
+
+        //set all formulas button
+        if (position==0) {
+            holder.allFormulasTextView.setVisibility(View.VISIBLE);
+            holder.aIcon.setVisibility(View.VISIBLE);
+            holder.topicNumberTextView.setVisibility(View.GONE);
+            holder.topicNameTextView.setVisibility(View.GONE);
+            holder.circleConnectorImageView.setVisibility(View.GONE);
+        }
 
         //set name and number
-        holder.topicNumberTextView.setText(topicNumber);
+        holder.topicNumberTextView.setText(Integer.toString(topicNumber));
         holder.topicNameTextView.setText(topicName);
 
         //set top and bottom circle visibility
@@ -58,6 +68,7 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
         //set colour for HL topics
         if (topicNumber>8){
             ImageViewCompat.setImageTintList(holder.circleConnectorImageView, ColorStateList.valueOf(ContextCompat.getColor(context, R.color.orange)));
+            holder.topicNumberTextView.setTextColor(ContextCompat.getColor(context, R.color.orange));
         }
 
         //TODO: setup on click listener
@@ -72,6 +83,6 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
 
     @Override
     public int getItemCount() {
-        return topics.size();
+        return topicList.size();
     }
 }
