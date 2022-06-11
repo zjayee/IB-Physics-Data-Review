@@ -84,7 +84,7 @@
                     />
 
                 <ImageView
-                    android:id="@+id/equation_imageview"
+                    android:id="@+id/formula_imageview"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:src="@drawable/e2_1"

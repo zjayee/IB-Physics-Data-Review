@@ -23,7 +23,7 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
     //constructor
     TopicAdapter(@NonNull Context context){
         this.context = context;
-        this.topicList = Topics.topicList;
+        this.topicList = DataStorage.topicList;
         topicList.add(0, "All Formulas");
     }
 
