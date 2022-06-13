@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import org.jetbrains.annotations.NotNull;
 
 public class FormulaViewHolder extends RecyclerView.ViewHolder {
-    ImageButton viewMoreButton;
+    ImageView viewMoreButton;
     TextView headerTextView;
     ImageView formulaImageView;
     View itemView;

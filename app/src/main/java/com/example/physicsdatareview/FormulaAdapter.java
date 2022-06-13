@@ -21,6 +21,7 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaViewHolder> {
     //constructor
     FormulaAdapter(@NonNull Context context){
         this.context = context;
+        formulaList = DataStorage.formulaList;
         //TODO: set formulaList
     }
 

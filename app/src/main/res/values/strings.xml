@@ -21,12 +21,14 @@
     <string name="e2_4_2">F = force\n∆p = change in momentum\n∆t = duration\n\nResultant force due to momentum.</string>
     <string name="e2_4_3">Ek = kinetic energy\np = momentum\nm = mass\n\nCalculation of kinetic energy using momentum.</string>
     <string name="e2_4_4">F = force\n∆t = duration\n∆p = change in momentum\n\nImpulse is the change in momentum. </string>
+    //topic 3
     <string name="e3_1_1">Q = energy/heat\nm = mass\nc = specific heat capacity\n∆T = change in temperature\n\nEnergy received/given in changing an object’s temperature. Change in temperature can be in either Celcius or Kelvin.</string>
     <string name="e3_1_2">Q = energy/heat\nm = mass\nL = specific latent heat\n\nEnergy received/given in changing an object’s phase. Temperature does not change. </string>
     <string name="e3_2_1">p = pressure\nF = force\nA = area\n\nPressure is a result of the force of gas molecules colliding with the container.</string>
     <string name="e3_2_2">n = number of moles\nN = Number of atoms\nNA = Avogadro’s constant (6.02 x 10^23)</string>
     <string name="e3_2_3">p = pressure\nV = Volume\nn = moles\nR = gas constant (8.31)\nT = temperature \n\nIdeal gas law.</string>
     <string name="e3_2_4">Ek = average kinetic energy per molecule of gas\nkb = Boltzmann’s constant (1.38 x 10^-23)\nT = temperature\nR = Gas constant (8.31)\nNA = Avogadro’s constant (6.02 x 10^23)\n\nAverage kinetic energy per molecule of gas. Remember to multiply by the number of molecules when finding total energy.</string>
+    //topic 4
     <string name="e4_1">T = period\nf = frequency\n\nPeriod is the time taken for a complete oscillation.</string>
     <string name="e4_2">c = velocity\nf = frequency\nλ = wavelength\n\nFor electromagnetic waves, c is the speed of light (3.00 x 10^8).</string>
     <string name="e4_3_1">I = intensity\nA = amplitude\nx = distance from source\n\nIntensity of a wave’s radiation is proportional to the square of the amplitude (be careful when reading graphs). \n\nIntensity of a wave’s radiation is inversely proportional to the distance from the source, as it covers a spherical area.</string>
@@ -34,8 +36,9 @@
     <string name="e4_4_1">n = index of refraction\nθ = angle of incidence/refraction (from normal)\nv = wave velocity\n\nSnell’s law, refraction when a wave crosses between two media.</string>
     <string name="e4_4_2">s = fringe spacing (on screen)\nλ = wavelength\nD = distance to screen\nd = slit spacing</string>
     <string name="e4_4_3">n = order of minimum/maximum (any integer)\nλ = wavelength\n\nPoints of constructive interference have doubled amplitude (quadruple intensity).\n\nPoints of destructive interference have zero amplitude.</string>
+    //topic 5
     <string name="e5_1_1">I = current\nq = charge\nt = time\n\nCurrent is the rate electric charge flows through a circuit.</string>
-    <string name="e5_1_2">F = force \nk = Coulomb constant (8.99 x 10^9)\nq = charge\nr = separation distance\n\nForce between two charges, r distance apart. Force is equal and opposite, obeys Newton's third law.</string>
+    <string name="e5_1_2">F = force \nk = Coulomb constant (8.99 x 10^9)\nq = charge\nr = separation distance\n\nForce between two charges, r distance apart. Force is equal and opposite, obeys Newton\'s third law.</string>
     <string name="e5_1_3">k = Coulomb constant (8.99 x 10^9)\nε0 = permittivity of free space (8.85 x 10^-12)\n\nAlternate representation of Coulomb constant.</string>
     <string name="e5_1_4">V = potential difference\nW = work done\nq = charge</string>
     <string name="e5_1_5">E = electric field strength\nF = force\nq = charge</string>
@@ -48,22 +51,26 @@
     <string name="e5_3">ε = EMF (electromotive force)\nI = current\nR = resistance (in circuit)\nr = internal resistance (in battery)\n\nEMF is the energy supplied per coulomb of charge. ε is equal to V when no current is flowing.</string>
     <string name="e5_4_1">F = force\nq = charge\nv = velocity of charge\nB = magnitude of magnetic field\nθ = angle with field\n\nForce on a charge moving through a magnetic field.</string>
     <string name="e5_4_2">F = force\nB = magnitude of magnetic field\nI = current\nL = length of wire\nθ = angle with field\n\nForce on a current-carrying wire in a magnetic field.</string>
+    //topic 6
     <string name="e6_1_1">v = velocity\nω = angular velocity\nr = radius of circle\n\nVelocity of a body traveling in a circle.</string>
     <string name="e6_1_2">a = acceleration\nv = velocity\nr = radius of circle\nT = period\n\nCalculation of centripetal acceleration.</string>
     <string name="e6_1_3">F = force\nm = mass\nv = velocity\nr = radius of circle\nω = angular velocity\n\nCalculation of centripetal force. Centripetal force is always towards the center and perpendicular to the direction of velocity.</string>
     <string name="e6_2_1">F = force \nG = gravitational constant (6.67 x 10^-11)\nM = mass of first body\nm = mass of second body \nr = radius\n\nNewton’s law of gravitation. Force experienced by 2 masses. Force on each mass is equal and opposite.</string>
     <string name="e6_2_2">g = gravitational field strength\nF = force\nm = mass\nField strength as experienced by mass in field.\n\nG = gravitational constant (6.67 x 10^-11)\nM = mass of first body\nr = radius\nField strength at a certain distance from a body.</string>
+   //topic 7
     <string name="e7_1">E = energy\nh = planck’s constant (6.63 x 10^-34)\nf = frequency\nλ = wavelength\nc = speed of light (3.00 x 10^8)\n\nFormulas for calculating the energy and wavelength of a photon.</string>
     <string name="e7_2">E = energy\nm = mass\nc = speed of light (3.00 x 10^8)\n\nEinstein’s theory of relativity of mass energy equivalence. Loss in mass -> energy. To calculate energy released in a reaction, find mass difference and use formula.</string>
     <string name="e7_3_1">u = up, d = down, c = charm, s = strange, t = top, b = bottom\n\nAll quarks have an antiquark with opposite charge and -⅓ baryon number. \n\nMesons are made up of one quark and one antiquark with a baryon number of 0. Baryons are made up of three quarks with a baryon number of 1.\n\nProtons: uud\nNeutrons: udd</string>
     <string name="e7_3_2">e = electron\nμ = muon\nτ = tau \nv = neutrino\n\nFamily lepton number is always conserved.</string>
     <string name="e7_3_3">Strangeness is not conserved in weak interactions.\n\nIf a charged particle is produced through an interaction, use an exchange particle with the charge of the particle.</string>
+    //topic 8
     <string name="e8_1_1">Power is the work done per unit time.</string>
     <string name="e8_1_2">A = area swept out by turbine blades = πL^2 where L is the length of the blade\nρ = air density\nv = wind speed\n\nCalculate power produced by an ideal wind turbine. Real wind turbine would produce less power as air does not come to rest inside the turbine and some energy is lost as heat.</string>
     <string name="e8_2_1">P = power\ne = emissivity (1 for black body)\nσ = Stefan-Boltzmann constant (1.38 x 10^-23)\nT = temperature\n\nCalculate the power radiated by a body.</string>
     <string name="e8_2_2">λ = wavelength\nT = temperature.\n\nWavelength at which intensity is at a maximum.</string>
     <string name="e8_2_3">I = intensity\nA = area\n\nCalculate intensity of radiation, power per unit area.</string>
     <string name="e8_2_4">Albedo is the ratio between the total scattered (reflected) radiation and the total incident radiation of that planet.</string>
+    //topic 9
     <string name="e9_1_1">ω = angular frequency\nT = period\n\nRelationship between angular frequency and period of oscillation.</string>
     <string name="e9_1_2">a = acceleration\nω = angular frequency\nx = displacement from equilibrium\n\nAcceleration of an object in SHM is proportional and opposite to displacement.</string>
     <string name="e9_1_3">x = displacement from equilibrium\nv = velocity\nx0 = maximum displacement\nω = angular frequency\nt = time elapsed\n\nFor displacement use sin function if object starts at zero displacement, use cos if object starts at maximum displacement. Use the other function for velocity.</string>
@@ -77,12 +84,14 @@
     <string name="e9_4_2">R = resolvance\nλ = wavelength / average between two wavelength\nΔλ = smallest resolvable wavelength difference\nm = diffraction order\nN = number of slits illuminated\n\nResolvance of a diffraction grating.</string>
     <string name="e9_5_1">f’ = perceived frequency\nf = actual / emitted frequency\nv = wave speed\nus = velocity of source\nuo = velocity of observer\n\nDoppler effect equations. Perceived frequency is greater if the observer/source is moving towards the other. Perceived frequency is smaller if the observer/source is moving away from the other. </string>
     <string name="e9_5_2">f = frequency\nλ = wavelength\nv = relative speed of observer and source\nc = speed of light\n\nDoppler effect for light.</string>
+    //topic 10
     <string name="e10_1">W = work\nq = charge\nm = mass\nVe = electric potential\nVg = gravitational potential\n\nWork done moving a charge/mass between 2 points in a field.</string>
     <string name="e10_2_1">Vg = gravitational potential\nVe = electric potential\nG = gravitational constant (6.67 x 10^-11)\nk = coulomb constant (8.99 x 10^9)\nM = mass\nQ = charge\nr = separation distance\n\nGravitational/electric potential is the work done per unit mass bringing a small point mass/charge in from infinity to a point in a gravitational field.</string>
     <string name="e10_2_2">g = gravitational field strength\nE = electric field strength\nVg = gravitational potential\nVe = electric potential\nr = separation distance\n\nGravitational/electric field strength is the force per unit mass exerted on a small or point mass/charge.</string>
     <string name="e10_2_3">Ep = potential energy\nVg = gravitational potential\nVe = electric potential\nG = gravitational constant (6.67 x 10^-11)\nk = coulomb constant (8.99 x 10^9)\nm = mass 1\nM = mass 2\nq = charge 1 \nQ = charge 2\n\nGravitational/electric potential energy is the work done bringing a small point mass/charge in from infinity to a point in a gravitational field.</string>
     <string name="e10_2_4">Fg = gravitational force\nFe = electric force\nG = gravitational constant (6.67 x 10^-11)\nk = coulomb constant (8.99 x 10^9)\nm = mass 1 \nM = mass 2\nq = charge 1\nQ = charge 2\nr = separation distance\n\nForce experienced by 2 masses/charges. Force on each mass/charge is equal and opposite.</string>
     <string name="e10_2_5">v(esc) = escape velocity of a planet\nv(orbit) = velocity of a body in circular orbit around another body\nG = gravitational constant (6.67 x 10^-11)\nM = mass 2\nr = separation distance</string>
+    //topic 11
     <string name="e11_1_1">Φ = magnetic flux\nB = magnitude of magnetic field\nA = area of coil in field\nθ = angle from normal of the field</string>
     <string name="e11_1_2">ε = induced emf\nN = number of turns in coil\nΦ = magnetic flux\nt = time elapsed\n\nFaraday’s law: emf induced is proportional to the rate of change of magnetic flux. \n\nLenz’s law: The direction of an induced emf is such that it produces a magnetic field whose direction opposes the change in magnetic field that produced it.</string>
     <string name="e11_1_3">ε = induced emf\nB = magnitude of magnetic field\nv = speed of wire\nl = length of wire\nN = number of turns in coil\n\nInduced emf in a conductor moving through a field.</string>
@@ -95,6 +104,7 @@
     <string name="e11_3_4">C = capacitance\nε = permittivity of dielectric material\nA = area of plates\nd = separation of plates\n\nCapacitance of a capacitor. In air use permittivity of free space (8.85 x 10^-12). </string>
     <string name="e11_3_5">E = energy stored\nC = capacitance\nV = voltage\n\nEnergy stored in a capacitor.</string>
     <string name="e11_3_6">τ = time constant\nR = resistance\nC = capacitance\n\nq=charge\nq0 = original charge\nI = current\nI0 = initial maximum current\nV = voltage\nV0 = initial maximum voltage\n\nt=time elapsed\n\nFormulas for the exponential decrease of charge/current/voltage of a discharging capacitor.</string>
+    //topic 12
     <string name="e12_1_1">E = energy\nh = planck’s constant (6.63 x 10^-34)\nf = frequency\n\nFormulas for calculating the energy of a photon.</string>
     <string name="e12_1_2">E(max) = maximum energy of freed electron\nh = planck’s constant (6.63 x 10^-34)\nf = frequency\nΦ = work function\n\nFormula for calculating the kinetic energy of a freed electron due to the photoelectric effect.</string>
     <string name="e12_1_3">E = energy\nn = energy level\n\nQuantised energy of an electron in the hydrogen atom.</string>

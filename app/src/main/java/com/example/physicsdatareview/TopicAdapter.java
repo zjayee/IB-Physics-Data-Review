@@ -1,6 +1,7 @@
 package com.example.physicsdatareview;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -76,6 +77,8 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
             @Override
             public void onClick(View view) {
                 //open list of formulas for topic
+                Intent intent = new Intent(context, FormulaListActivity.class);
+                context.startActivity(intent);
             }
         });
 
