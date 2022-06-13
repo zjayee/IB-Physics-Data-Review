@@ -12,6 +12,7 @@ public class DataStorage {
     public static HashMap<Double, String> subtopicMap = new HashMap<>();
     public static  ArrayList<Formula> formulaList = new ArrayList<>();
 
+    //TODO: resize formula images 
     public static void populateFormulaList(){
         formulaList = new ArrayList<>(Arrays.asList(
                 new Formula(1.2, R.drawable.e1_2, context.getResources().getString(R.string.e1_2)),

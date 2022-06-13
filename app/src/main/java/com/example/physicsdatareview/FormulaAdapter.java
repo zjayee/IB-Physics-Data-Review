@@ -16,7 +16,6 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaViewHolder> {
 
     Context context;
     ArrayList<Formula> formulaList;
-    double currentSubtopic = 0;
 
     //constructor
     FormulaAdapter(@NonNull Context context){
@@ -40,14 +39,19 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaViewHolder> {
     public void onBindViewHolder(@NonNull @NotNull FormulaViewHolder holder, int position) {
 
         Formula formula = formulaList.get(position);
+        Formula previous = new Formula(0,0,"");
+        if (position-1>=0) {
+            previous = formulaList.get(position - 1);
+        }
         holder.formulaImageView.setImageResource(formula.formulaImage);
 
         String headerText = formula.subtopic+" "+ DataStorage.subtopicMap.get(formula.subtopic);
         holder.headerTextView.setText(headerText);
 
-        if (formula.subtopic != currentSubtopic){
-            currentSubtopic = formula.subtopic;
+        if (formula.subtopic != previous.subtopic){
             holder.headerTextView.setVisibility(View.VISIBLE);
+        }else{
+            holder.headerTextView.setVisibility(View.GONE);
         }
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
