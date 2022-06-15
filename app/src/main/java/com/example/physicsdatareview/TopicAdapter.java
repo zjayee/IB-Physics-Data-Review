@@ -72,12 +72,13 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
             holder.topicNumberTextView.setTextColor(ContextCompat.getColor(context, R.color.orange));
         }
 
-        //TODO: setup on click listener
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //open list of formulas for topic
                 Intent intent = new Intent(context, FormulaListActivity.class);
+                intent.putExtra("topic", topicNumber);
                 context.startActivity(intent);
             }
         });

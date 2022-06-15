@@ -1,6 +1,8 @@
 package com.example.physicsdatareview;
 
-public class Formula {
+import java.io.Serializable;
+
+public class Formula implements Serializable {
     int formulaImage;
     String explanation;
     double subtopic;

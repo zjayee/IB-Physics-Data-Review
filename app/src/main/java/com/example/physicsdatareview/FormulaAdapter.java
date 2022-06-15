@@ -1,27 +1,45 @@
 package com.example.physicsdatareview;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
+import java.util.stream.Collectors;
 
 public class FormulaAdapter extends RecyclerView.Adapter<FormulaViewHolder> {
 
     Context context;
     ArrayList<Formula> formulaList;
+    int topicNumber;
 
     //constructor
-    FormulaAdapter(@NonNull Context context){
+    FormulaAdapter(@NonNull Context context, @NonNull int topicNumber){
         this.context = context;
-        formulaList = DataStorage.formulaList;
-        //TODO: set formulaList
+        this.topicNumber = topicNumber;
+        ArrayList<Formula> unfilteredFormulaList = DataStorage.formulaList;
+
+        if (topicNumber == 0) {
+            formulaList = unfilteredFormulaList;
+        }else {
+            formulaList = new ArrayList<>();
+            for (Formula formula : unfilteredFormulaList) {
+                int formulaTopic = (int) Math.floor(formula.subtopic);
+                if (formulaTopic == topicNumber){
+                    formulaList.add(formula);
+                }else if (formulaTopic>topicNumber){
+                    return;
+                }
+            }
+        }
     }
 
     @NonNull
@@ -50,6 +68,9 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaViewHolder> {
 
         if (formula.subtopic != previous.subtopic){
             holder.headerTextView.setVisibility(View.VISIBLE);
+            if (formula.subtopic>8){
+                holder.headerTextView.setTextColor(ContextCompat.getColor(context, R.color.orange));
+            }
         }else{
             holder.headerTextView.setVisibility(View.GONE);
         }
@@ -58,6 +79,9 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaViewHolder> {
             @Override
             public void onClick(View view) {
                 //TODO: setup on click listener
+                Intent intent = new Intent(context, FormulaDisplayActivity.class);
+                intent.putExtra("formula", formula);
+                context.startActivity(intent);
             }
         });
     }
