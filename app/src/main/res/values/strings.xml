@@ -4,6 +4,10 @@
     <string name="explanation">Explanation</string>
     <string name="all_formulas">All Formulas</string>
 
+    <string name="suggestion_link">https://forms.gle/z9rQdiyYp2uz5MMo6</string>
+    <string name="bug_link">https://forms.gle/UvaUjvX2rmwffbd67</string>
+    <string name="kofi_link">https://ko-fi.com/jayee</string>
+
     //topic 1
     <string name="e1_2">∆y = absolute uncertainty of y\n∆a = absolute uncertainty of a\n∆b = absolute uncertainty of b\n\nFormulas for uncertainty calculation.</string>
     <string name="e1_3">A = vector\nAH = horizontal component of vector\nAv = vertical component of vector\n\nBe aware of where the reference angle is and apply the suitable trigonometric identities.</string>

@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class DataStorage {
 
     private static Context context;
-    public static ArrayList<String> topicList = new ArrayList<>(Arrays.asList("Measurements & Uncertainties", "Mechanics", "Thermal Physics", "SHM and Waves", "Electricity and Magnetism", "Circular Motion and Gravitation", "Atomic, Nuclear and Particle Physics", "Energy Production","Wave Phenomena", "Fields", "Electromagnetic Induction", "Quantum and Nuclear Physics"));
+    public static ArrayList<String> topicList = new ArrayList<>(Arrays.asList("All Formulas","Measurements & Uncertainties", "Mechanics", "Thermal Physics", "SHM and Waves", "Electricity and Magnetism", "Circular Motion and Gravitation", "Atomic, Nuclear and Particle Physics", "Energy Production","Wave Phenomena", "Fields", "Electromagnetic Induction", "Quantum and Nuclear Physics"));
     public static HashMap<Double, String> subtopicMap = new HashMap<>();
     public static  ArrayList<Formula> formulaList = new ArrayList<>();
 
