@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PhysicsDataReview.NoActionBar">
-        <activity android:name=".FormulaListActivity"></activity>
-        <activity android:name=".FormulaDisplayActivity"></activity>
+        <activity android:name=".InfoActivity"></activity>
+        <activity android:name=".FormulaListActivity" />
+        <activity android:name=".FormulaDisplayActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

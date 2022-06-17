@@ -3,10 +3,18 @@
     <string name="formulas">Formulas</string>
     <string name="explanation">Explanation</string>
     <string name="all_formulas">All Formulas</string>
+    <string name="info">Info</string>
 
     <string name="suggestion_link">https://forms.gle/z9rQdiyYp2uz5MMo6</string>
     <string name="bug_link">https://forms.gle/UvaUjvX2rmwffbd67</string>
     <string name="kofi_link">https://ko-fi.com/jayee</string>
+
+    <string name="info_p1">This app was created by an IB alumni to provide an easy to navigate study resource of the formulas in the physics data booklet.</string>
+    <string name="info_p2">I am actively working on improving this app. If there is anything that can be improved submit them through the links below.   </string>
+    <string name="info_p3">If this app has helped you, consider supporting the creator.</string>
+    <string name="report_bug"><a href="https://forms.gle/UvaUjvX2rmwffbd67">Report a bug →</a></string>
+    <string name="submit_suggestion"><a href="https://forms.gle/z9rQdiyYp2uz5MMo6">Submit a suggestion →</a></string>
+    <string name="buy_coffee"><a href="https://ko-fi.com/jayee">Buy me a coffee →</a></string>
 
     //topic 1
     <string name="e1_2">∆y = absolute uncertainty of y\n∆a = absolute uncertainty of a\n∆b = absolute uncertainty of b\n\nFormulas for uncertainty calculation.</string>
@@ -61,7 +69,7 @@
     <string name="e6_1_3">F = force\nm = mass\nv = velocity\nr = radius of circle\nω = angular velocity\n\nCalculation of centripetal force. Centripetal force is always towards the center and perpendicular to the direction of velocity.</string>
     <string name="e6_2_1">F = force \nG = gravitational constant (6.67 x 10^-11)\nM = mass of first body\nm = mass of second body \nr = radius\n\nNewton’s law of gravitation. Force experienced by 2 masses. Force on each mass is equal and opposite.</string>
     <string name="e6_2_2">g = gravitational field strength\nF = force\nm = mass\nField strength as experienced by mass in field.\n\nG = gravitational constant (6.67 x 10^-11)\nM = mass of first body\nr = radius\nField strength at a certain distance from a body.</string>
-   //topic 7
+    //topic 7
     <string name="e7_1">E = energy\nh = planck’s constant (6.63 x 10^-34)\nf = frequency\nλ = wavelength\nc = speed of light (3.00 x 10^8)\n\nFormulas for calculating the energy and wavelength of a photon.</string>
     <string name="e7_2">E = energy\nm = mass\nc = speed of light (3.00 x 10^8)\n\nEinstein’s theory of relativity of mass energy equivalence. Loss in mass -> energy. To calculate energy released in a reaction, find mass difference and use formula.</string>
     <string name="e7_3_1">u = up, d = down, c = charm, s = strange, t = top, b = bottom\n\nAll quarks have an antiquark with opposite charge and -⅓ baryon number. \n\nMesons are made up of one quark and one antiquark with a baryon number of 0. Baryons are made up of three quarks with a baryon number of 1.\n\nProtons: uud\nNeutrons: udd</string>
