@@ -1,4 +1,4 @@
-package com.example.physicsdatareview;
+package com.zjy.physicsdatareview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import com.example.physicsdatareview.R;
 
 import org.w3c.dom.Text;
 

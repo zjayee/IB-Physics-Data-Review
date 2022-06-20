@@ -1,6 +1,9 @@
-package com.example.physicsdatareview;
+package com.zjy.physicsdatareview;
 
 import android.content.Context;
+
+import com.example.physicsdatareview.R;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

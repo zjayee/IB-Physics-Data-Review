@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.physicsdatareview">
+    package="com.zjy.physicsdatareview">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PhysicsDataReview.NoActionBar">
-        <activity android:name=".InfoActivity"></activity>
-        <activity android:name=".FormulaListActivity" />
-        <activity android:name=".FormulaDisplayActivity" />
+        <activity android:name="com.zjy.physicsdatareview.InfoActivity" />
+        <activity android:name="com.zjy.physicsdatareview.FormulaListActivity" />
+        <activity android:name="com.zjy.physicsdatareview.FormulaDisplayActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.zjy.physicsdatareview.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Physics Data Review</string>
+    <string name="app_name">PhysicsDataReview</string>
     <string name="formulas">Formulas</string>
     <string name="explanation">Explanation</string>
     <string name="all_formulas">All Formulas</string>
@@ -7,14 +7,14 @@
 
     <string name="suggestion_link">https://forms.gle/z9rQdiyYp2uz5MMo6</string>
     <string name="bug_link">https://forms.gle/UvaUjvX2rmwffbd67</string>
-    <string name="kofi_link">https://ko-fi.com/jayee</string>
+    <string name="kofi_link">https://ko-fi.com/zj1111</string>
 
     <string name="info_p1">This app was created by an IB alumni to provide an easy to navigate study resource of the formulas in the physics data booklet.</string>
     <string name="info_p2">I am actively working on improving this app. If there is anything that can be improved submit them through the links below.   </string>
     <string name="info_p3">If this app has helped you, consider supporting the creator.</string>
     <string name="report_bug"><a href="https://forms.gle/UvaUjvX2rmwffbd67">Report a bug →</a></string>
     <string name="submit_suggestion"><a href="https://forms.gle/z9rQdiyYp2uz5MMo6">Submit a suggestion →</a></string>
-    <string name="buy_coffee"><a href="https://ko-fi.com/jayee">Buy me a coffee →</a></string>
+    <string name="buy_coffee"><a href="https://ko-fi.com/zj1111">Buy me a coffee →</a></string>
 
     //topic 1
     <string name="e1_2">∆y = absolute uncertainty of y\n∆a = absolute uncertainty of a\n∆b = absolute uncertainty of b\n\nFormulas for uncertainty calculation.</string>

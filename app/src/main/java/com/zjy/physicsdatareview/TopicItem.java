@@ -1,4 +1,4 @@
-package com.example.physicsdatareview;
+package com.zjy.physicsdatareview;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+
+import com.example.physicsdatareview.R;
 
 import org.jetbrains.annotations.NotNull;
 
