@@ -72,6 +72,9 @@ public class TopicAdapter extends RecyclerView.Adapter<TopicViewHolder> {
         if (topicNumber>8){
             ImageViewCompat.setImageTintList(holder.circleConnectorImageView, ColorStateList.valueOf(ContextCompat.getColor(context, R.color.orange)));
             holder.topicNumberTextView.setTextColor(ContextCompat.getColor(context, R.color.orange));
+        }else{
+            ImageViewCompat.setImageTintList(holder.circleConnectorImageView, ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
+            holder.topicNumberTextView.setTextColor(ContextCompat.getColor(context, R.color.blue));
         }
 
 

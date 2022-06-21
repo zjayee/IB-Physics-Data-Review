@@ -71,6 +71,8 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaViewHolder> {
             holder.headerTextView.setVisibility(View.VISIBLE);
             if (formula.subtopic>=9){
                 holder.headerTextView.setTextColor(ContextCompat.getColor(context, R.color.orange));
+            }else{
+                holder.headerTextView.setTextColor(ContextCompat.getColor(context, R.color.blue));
             }
         }else{
             holder.headerTextView.setVisibility(View.GONE);
