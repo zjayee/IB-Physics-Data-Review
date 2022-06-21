@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zjy.physicsdatareview.FormulaDisplayActivity">
+    tools:context="com.zjy.physicsdatareview.FormulaDisplayActivity"
+    android:background="@color/white"
+    >
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -62,6 +64,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:cardElevation="15dp"
         app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@color/white"
         >
 
         <ScrollView
