@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import com.example.physicsdatareview.R;
+import com.zjy.physicsdatareview.R;
 
 import org.jetbrains.annotations.NotNull;
 

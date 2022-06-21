@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.example.physicsdatareview.R;
+import com.zjy.physicsdatareview.R;
 
 public class MainActivity extends AppCompatActivity {
 

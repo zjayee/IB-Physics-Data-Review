@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.physicsdatareview.R;
+import com.zjy.physicsdatareview.R;
 
 public class FormulaDisplayActivity extends AppCompatActivity {
 
@@ -44,7 +44,7 @@ public class FormulaDisplayActivity extends AppCompatActivity {
         formulaImageView.setImageResource(formula.formulaImage);
         explanationTextView.setText(formula.explanation);
 
-        if(formula.subtopic>8){
+        if(formula.subtopic>=9){
             explanationHeaderTextView.setTextColor(ContextCompat.getColor(this, R.color.orange));
             formulaHeaderTextView.setTextColor(ContextCompat.getColor(this, R.color.orange));
         }

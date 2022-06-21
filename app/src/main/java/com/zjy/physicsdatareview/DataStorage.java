@@ -2,7 +2,7 @@ package com.zjy.physicsdatareview;
 
 import android.content.Context;
 
-import com.example.physicsdatareview.R;
+import com.zjy.physicsdatareview.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

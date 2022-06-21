@@ -12,7 +12,7 @@ import androidx.core.content.ContextCompat;
 import androidx.core.widget.ImageViewCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.physicsdatareview.R;
+import com.zjy.physicsdatareview.R;
 
 import org.jetbrains.annotations.NotNull;
 

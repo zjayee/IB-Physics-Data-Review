@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.example.physicsdatareview.R;
+import com.zjy.physicsdatareview.R;
 
 import org.w3c.dom.Text;
 

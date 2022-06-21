@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.physicsdatareview.R;
+import com.zjy.physicsdatareview.R;
 
 import org.jetbrains.annotations.NotNull;
 

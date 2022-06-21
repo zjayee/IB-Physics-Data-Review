@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.physicsdatareview.R;
+import com.zjy.physicsdatareview.R;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -69,7 +69,7 @@ public class FormulaAdapter extends RecyclerView.Adapter<FormulaViewHolder> {
 
         if (formula.subtopic != previous.subtopic){
             holder.headerTextView.setVisibility(View.VISIBLE);
-            if (formula.subtopic>8){
+            if (formula.subtopic>=9){
                 holder.headerTextView.setTextColor(ContextCompat.getColor(context, R.color.orange));
             }
         }else{
