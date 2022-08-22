@@ -1,5 +1,5 @@
 # IB Physics Data Review: An IB Physics Revision App
-**[Download on Google Play](tinyurl.com/ibphysicsdatareview)**
+**[Download on Google Play](https://play.google.com/store/apps/details?id=com.zjy.physicsdatareview)**
 
 From my experience as a IB Physics HL student, I found that the data booklet was an essential tool for exams. Having a thorough understanding of all the formulas was incredibly valuable in achieving my 7 in the course. 
 
