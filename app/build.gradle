@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.zjy.physicsdatareview"
         minSdkVersion 23
-        targetSdkVersion 31
+        targetSdkVersion 33
         versionCode 3
         versionName "1.2"
 
@@ -29,6 +29,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    namespace 'com.zjy.physicsdatareview'
 }
 
 dependencies {
