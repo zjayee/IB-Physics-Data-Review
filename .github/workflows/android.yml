@@ -24,3 +24,11 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+
+    - name: Upload build artifacts
+      uses: actions/checkout@v4
+      with:
+        name: android-build
+        path: |
+          app/build/outputs/apk/**/*.apk
+          app/build/outputs/bundle/**/*.aab
